@@ -10,7 +10,7 @@ def getSum(_initial, _final):
     return sum;
 
 def main():
-    print("Sum of all multiples of 3 or 5 below 1000: {}".format(getSum(1, 100)));
+    print("Sum of all multiples of 3 or 5 below 1000: {}".format(getSum(1, 1000)));
     
 if __name__ == "__main__":
     main();
