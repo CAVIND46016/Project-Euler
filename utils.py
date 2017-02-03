@@ -1,5 +1,6 @@
 #Common utility functions
 
+import math
 import random
 from functools import reduce
 
