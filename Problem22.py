@@ -10,7 +10,7 @@ a score of 938 × 53 = 49714.
 What is the total of all the name scores in the file?
 """
 
-with open("names.txt", 'r', encoding='utf8') as file:
+with open("Problem22.txt", 'r', encoding='utf8') as file:
     tmp = file.read().split(",")
     
 arr = [i.replace('"', '') for i in tmp]
